@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Exercices en Javascript</title>
+</head>
+
+<body>
+
+    <div id="intro">
+        <h1>Bienvenue dans mes exercices en Javascript</h1>
+    </div>
+
+    <div id="exercices-bouton">
+        <input class="btn" type="submit" value="Exercice 1" id="exo1">
+        <input class="btn" type="submit" value="Exercice 2" id="exo2">
+        <input class="btn" type="submit" value="Exercice 3" id="exo3">
+        <input class="btn" type="submit" value="Exercice 4" id="exo4">
+        <a id="btn5" href="contact.html">Exercice 5</a>
+    </div>
+    <section id="section">
+        <div class="part1">
+            <div id="e1" class="enonces">
+                <h3>Exercice 1 : Calcul du nombre de jeunes, de moyens et de vieux</h3>
+                <span>Il s'agit de dénombrer les personnes d'âge strictement inférieur à 20 ans, les personnes d'âge
+                    strictement supérieur à 40 ans et celles dont l'âge est compris entre 20 ans et 40 ans (20 ans et 40
+                    ans y compris) Le programme doit demander les âges successifs. Le comptage est arrêté dès la saisie
+                    d'un centenaire. Le centenaire est compté. Donnez le programme Javascript correspondant qui affiche
+                    les résultats.</span>
+                <br>
+                <br>
+                <input class="btna" type="submit" value="Commencer l'exercice" id="demarer1">
+            </div>
+            <div id="e2" class="enonces">
+                <h3>Exercice 2 : Table de multiplication</h3>
+                <span>Ecrivez une fonction qui affiche une table de multiplication. Votre fonction doit prendre un
+                    paramètre qui permet d'indiquer quelle table afficher.</span>
+                <br>
+                <br>
+                <input class="btna" type="submit" value="Commencer l'exercice" id="demarer2">
+            </div>
+            <div id="e3" class="enonces">
+                <h3>Exercice 3 : recherche d'un prénom</h3>
+                <span>Un prénom est saisi au clavier. On le recherche dans le tableau tab donné ci-après. Si le prénom
+                    est trouvé, on l'élimine du tableau en décalant les cases qui le suivent, et en mettant à blanc la
+                    dernière case. Si le prénom n'est pas trouvé un message d'erreur apparait et aucun prénom ne se
+                    supprime.</span>
+                <br>
+                <br>
+                <input class="btna" type="submit" value="Commencer l'exercice" id="demarer3">
+
+            </div>
+            <div id="e4" class="enonces">
+                <h3>Exercice 4 : total d'une commande</h3>
+                <span>A partir de la saisie du prix unitaire noté PU d'un produit et de la quantité commandée QTECOM,
+                    afficher le prix à payer PAP, en détaillant la remise REM et le port PORT, sachant que :
+
+                    TOT = ( PU * QTECOM )
+                    la remise est de 5% si TOT est compris entre 100 et 200 € et de 10% au-delà
+                    le port est gratuit si le prix des produits ( le total remisé ) est supérieur à 500 €. Dans le cas
+                    contraire, le port est de 2%
+                    la valeur minimale du port à payer est de 6 €
+                    Testez tous les cas possibles afin de vous assurez que votre script fonctionne.</span>
+                <br>
+                <br>
+                <input class="btna" type="submit" value="Commencer l'exercice" id="demarer4">
+            </div>
+        </div>
+        <div class="part2">
+            <h2>Réponses</h2>
+     
+            <span id="reponse1" class="rep-cache"></span>
+            <span id="reponse2" class="rep-cache"></span>
+            <span id="reponse3" class="rep-cache"></span>
+            <span id="reponse4" class="rep-cache"></span>
+  
+        </div>
+    </section>
+    <script src="sources.js"></script>
+</body>
+
+</html>

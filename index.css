@@ -1,0 +1,150 @@
+
+
+#intro{
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+#intro h1{
+    color: rgb(189, 55, 113);
+    font-size: 40px;
+}
+
+
+#exercices-bouton{
+    background-color: rgb(187, 27, 89);
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.btn{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    border-style: none;
+    font-size: 18px;
+    color: rgb(116, 61, 79);
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color:rgb(255, 255, 255);
+    color:rgb(214, 0, 82) ;
+}
+
+
+#btn5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(116, 61, 79);
+}
+
+#btn5:hover{
+    background-color:rgb(255, 255, 255);
+    color:rgb(214, 0, 82) ;
+}
+
+
+section{
+    display: flex;
+}
+
+.part1{
+    flex: 1;
+    background-color: rgb(198, 255, 93);
+    height: 500px;
+    border-color: white;
+    border-style:double;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2{
+    flex: 1;
+    background-color: rgb(121, 231, 69);
+    height: 500px;
+    border-color: white;
+    border-style:double;
+}
+
+
+
+#enoncer1{
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 16px;
+    color: rgb(29, 29, 29)
+}
+
+.enonces{
+    display: none;
+}
+
+.rep-cache{
+    display: none;
+}
+
+
+.rep-ouverte{
+    display:block;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+span{
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.btna{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(190, 66, 107);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+.btna:hover{
+    background-color:rgb(255, 255, 255);
+    color:rgb(214, 0, 82) ;
+}
